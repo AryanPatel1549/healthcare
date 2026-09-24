@@ -1,8 +1,8 @@
 FROM eclipse-temurin:17-jdk
 
-COPY taget/healthcare.jar /user/app
+COPY taget/healthcare.jar /user/app/
 
-WORKDIR /user/app
+WORKDIR /user/app/
 
 EXPOSE 9090
 
