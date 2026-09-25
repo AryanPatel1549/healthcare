@@ -1,6 +1,6 @@
 FROM eclipse-temurin:17-jdk
 
-COPY taget/healthcare.jar /user/app/
+COPY target/healthcare.jar /user/app/
 
 WORKDIR /user/app/
 
